@@ -16,7 +16,7 @@ def find_min(list_of_numbers):
     for i in list_of_numbers:
         if i < _min:
             _min = i
-    return _min + 1
+    return _min
 
 
 def find_max(list_of_numbers):
